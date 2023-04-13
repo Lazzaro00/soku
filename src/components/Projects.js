@@ -18,17 +18,17 @@ export const Projects = () => {
     },
     {
       title: "BMW - Soku",
-      description: "Design & Development",
+      description: "Clicca qui per i link alla canzone",
       imgUrl: bmw,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Antartide - Soku",
+      description: "Clicca qui per i link alla canzone",
       imgUrl: antartide,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Sotto Cassa - Soku",
+      description: "Clicca qui per i link alla canzone",
       imgUrl: sotto_cassa,
     }
   ];
