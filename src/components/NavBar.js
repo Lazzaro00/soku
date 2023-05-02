@@ -18,8 +18,8 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.facebook.com/lazzarocarlucci/"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.instagram.com/lazzaro_carlucci/"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.facebook.com/"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.instagram.com/"><img src={navIcon3} alt="" /></a>
               </div>
             </span>
           </Navbar.Collapse>
