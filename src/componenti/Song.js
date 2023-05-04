@@ -8,7 +8,7 @@ class Song extends React.Component {
             
             <header className="Song-header">
             <img src={foto} className="Song-Link"/>
-            <h1>APPLE - Soku</h1>
+            <h1>Dimmi Perché - Soku</h1>
         <p className='Pulsanti'>
             <p>
             <button className='ButtonSong' onClick={() => window.open('https://open.spotify.com/track/0PrJaXzNau6S3AP7prD5Ni?si=cdf627e2d86f4861','_blank')}>ASCOLTA | Spotify</button>
