@@ -1,14 +1,14 @@
 import React from 'react';
-import foto from "../assets/img/DimmiPerché.jpg";
+import foto1 from '../assets/img/DimmiPerché.jpg';
 
 class Song extends React.Component {
-    render() {
+    render() 
     return(
         <div className="Song">
             
             <header className="Song-header">
-            <img src={foto} className="Song-Link"/>
-            <h1>Dimmi Perché - Soku</h1>
+            <img src={foto1} className="Song-Link"/>
+            <h1> Dimmi Perché - Soku </h1>
         <p className='Pulsanti'>
             <p>
             <button className='ButtonSong' onClick={() => window.open('https://open.spotify.com/album/38jCfZDkZM0RnTZPbsbZH5','_blank')}>ASCOLTA | Spotify</button>
