@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   /*background-image: url('./assets/background/background.svg');*/
-  background-image: radial-gradient(circle, #e6ba00, #c67927, #8e472f, #4a2325, #000000);
+  background: linear-gradient(180deg, #C53D8D 0%, #171719 100%);
 }
 
 .App-logo {
