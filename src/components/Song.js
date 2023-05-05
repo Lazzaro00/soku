@@ -1,5 +1,5 @@
 import React from 'react';
-import foto from '../assets/img/DimmiPerché.jpg';
+import foto from "../assets/img/DimmiPerché.jpg";
 
 class Song extends React.Component {
     render() {
