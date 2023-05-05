@@ -7,7 +7,7 @@ class Song extends React.Component {
         <div className="Song">
             
             <header className="Song-header">
-            <img src={foto1} className="Song-Link"/>
+            <img src='../assets/img/DimmiPerché.jpg' className="Song-Link"/>
             <h1> Dimmi Perché - Soku </h1>
         <p className='Pulsanti'>
             <p>
