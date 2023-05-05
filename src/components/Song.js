@@ -1,5 +1,5 @@
 import React from 'react';
-import foto1 from '../assets/img/DimmiPerché.jpg';
+import foto from '../assets/img/DimmiPerche.jpg';
 
 class Song extends React.Component {
     render() 
@@ -7,7 +7,7 @@ class Song extends React.Component {
         <div className="Song">
             
             <header className="Song-header">
-            <img src='../assets/img/DimmiPerché.jpg' className="Song-Link"/>
+            <img src={foto} className="Song-Link"/>
             <h1> Dimmi Perché - Soku </h1>
         <p className='Pulsanti'>
             <p>
