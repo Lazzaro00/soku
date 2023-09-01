@@ -4,6 +4,7 @@ import Apple from './components/Apple';
 import Bmw from './components/Bmw';
 import SottoCassa from './components/SottoCassa';
 import Antartide from './components/Antartide';
+import FuoriCittà from './components/FuoriCittà';
 
 import { Projects } from "./components/Projects";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -13,7 +14,8 @@ function App() {
     <BrowserRouter>
       
         <Routes>
-          <Route exact path="/" element={<DimmiPerche/>} />
+          <Route exact path="/" element={<FuoriCittà/>} />
+          <Route exact path="/DimmiPerchè" element={<DimmiPerche/>} />
           <Route exact path="/Apple" element={<Apple/>} />
           <Route exact path="/Bmw" element={<Bmw/>} />
           <Route exact path="/SottoCassa" element={<SottoCassa/>} />
