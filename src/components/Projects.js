@@ -5,6 +5,7 @@ import bmw from "../assets/img/bmw.jpg";
 import antartide from "../assets/img/antartide.jpg";
 import sotto_cassa from "../assets/img/sotto_cassa.jpg";
 import dimmi_perche from "../assets/img/DimmiPerché.jpg";
+import fuori_città from "../assets/img/fuoriCittà.jpg";
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,10 +14,17 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "Fuori Città - Soku",
+      description: "Clicca qui per i link alla canzone",
+      imgUrl: fuori_città,
+      link: "/"
+
+    },
+    {
       title: "Dimmi Perche - Soku",
       description: "Clicca qui per i link alla canzone",
       imgUrl: dimmi_perche,
-      link: "/"
+      link: "/DimmiPerchè"
 
     },
     {
