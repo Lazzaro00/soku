@@ -14,7 +14,7 @@ class FuoriCittà extends React.Component {
             <button className='ButtonSong' onClick={() => window.open('https://open.spotify.com/track/4b7ICVdsFZF3atJA6C9ruy?si=f23801e50eef44eb','_blank')}>ASCOLTA | Spotify</button>
             <button className='ButtonSong' onClick={() => window.open('https://music.amazon.it/albums/B0CBFS2GKD?do=play&trackAsin=B0CBFSL7C6&ref=dm_sh_0d0wkCkr9a7TLbtIBY1eW2KzP','_blank')}>ASCOLTA | Amazoon Music</button>
             <button className='ButtonSong' onClick={() => window.open('https://music.apple.com/it/album/fuori-citt%C3%A0/1696438504?i=1696438505','_blank')}>ASCOLTA | Apple Music</button>
-            <button className='ButtonSong' onClick={() => window.open('','_blank')}>ASCOLTA | Youtube</button>
+            <button className='ButtonSong' onClick={() => window.open('https://youtu.be/QhFpWk-SeDs','_blank')}>ASCOLTA | Youtube</button>
             </p>
         </p>
       </header>
