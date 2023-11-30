@@ -6,6 +6,7 @@ import antartide from "../assets/img/antartide.jpg";
 import sotto_cassa from "../assets/img/sotto_cassa.jpg";
 import dimmi_perche from "../assets/img/DimmiPerché.jpg";
 import fuori_città from "../assets/img/fuoriCittà.jpg";
+import inPara from "../assets/img/inPara.png";
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -14,10 +15,17 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "In Para - Soku",
+      description: "Clicca qui per i link alla canzone",
+      imgUrl: inPara,
+      link: "/"
+
+    },
+    {
       title: "Fuori Città - Soku",
       description: "Clicca qui per i link alla canzone",
       imgUrl: fuori_città,
-      link: "/"
+      link: "/FuoriCittà"
 
     },
     {
